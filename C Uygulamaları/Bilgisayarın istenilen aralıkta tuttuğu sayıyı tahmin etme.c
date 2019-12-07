@@ -12,15 +12,15 @@ ch='a';
 	while((ch=toupper(ch)) != 'E'){
 	
 		printf("--------------------------------------------------------\n");
-		printf("Bilgisayarin hangi aralıkta sayı tutacağını belirleyiniz\nEn az:");
+		printf("Bilgisayarin hangi aralÄ±kta sayÄ± tutacaÄŸÄ±nÄ± belirleyiniz\nEn az:");
 		scanf("%d",&min);
-		printf("En çok:");
+		printf("En Ã§ok:");
 		scanf("%d",&max);
 		
 		x=(max-min)+1;
 		
 		if(max==min || min>max){
-			printf("\nAz olan değer çok olan değerden fazla olamaz veya değerler eşit olamazlar\nTekrar deneyin\n");
+			printf("\nAz olan deÄŸer Ã§ok olan deÄŸerden fazla olamaz veya deÄŸerler eÅŸit olamazlar\nTekrar deneyin\n");
 			continue;
 		}
 		
@@ -28,19 +28,19 @@ ch='a';
 		srand(time(NULL));
 		a=rand()%x+min;
 		
-		printf("Bilgisayar [%d,%d] aralığında bir sayı tuttu,bulmaya çalışalım\n",min,max);
+		printf("Bilgisayar [%d,%d] aralÄ±ÄŸÄ±nda bir sayÄ± tuttu,bulmaya Ã§alÄ±ÅŸalÄ±m\n",min,max);
 		
 		for(b=min-1;b != a;){
 			printf("Tahmin:");
 			scanf("%d",&b);
 			
 			if(b != a)
-				printf("Tutmadı\n");
+				printf("TutmadÄ±\n");
 		}
 		
-		printf("%d=%d Aferin sayıyı buldunuz\n",a,b);
+		printf("%d=%d Aferin sayÄ±yÄ± buldunuz\n",a,b);
 		
-		printf("\nÇıkmak için E tuşuna basınız\nDevam etmek için rastgele bir tuşa basınız\n");
+		printf("\nÃ‡Ä±kmak iÃ§in E tuÅŸuna basÄ±nÄ±z\nDevam etmek iÃ§in rastgele bir tuÅŸa basÄ±nÄ±z\n");
 		ch=getch();
 	}
 	
