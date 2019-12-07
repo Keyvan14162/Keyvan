@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <locale.h>
 
 main(){
-
-setlocale(LC_ALL, "Turkish");
 
 int a,b,i,pc=0,user=0,n,exit=1;
 char name[20];
