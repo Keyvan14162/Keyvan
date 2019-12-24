@@ -24,7 +24,7 @@ while(exit==1){
 		scanf("%d",&a);
 	
 			if(a==1)
-				printf("\nYou have chosen stone");
+				printf("\nYou have chosen rock");
 			else if(a==2)
 				printf("\nYou have chosen paper");
 			else if(a==3)
@@ -38,7 +38,7 @@ while(exit==1){
 		b=rand()%3+1;
 		
 			if(b==1)
-				printf("\nComputer have chosen stone\n");
+				printf("\nComputer have chosen rock\n");
 			else if(b==2)
 				printf("\nComputer have chosen paper\n");
 			else if(b==3)
