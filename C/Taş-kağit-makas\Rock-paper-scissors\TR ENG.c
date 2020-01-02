@@ -10,8 +10,8 @@ setlocale(LC_ALL, "Turkish");
 int a,b,i,pc=0,user=0,n,exit=1,lang;
 char name[20];
 
-printf("Dilinizi seçiniz / Choose your language\n");
-printf("Türkçe için 1 giriniz:\n");
+printf("Dilinizi seÃ§iniz / Choose your language\n");
+printf("TÃ¼rkÃ§e iÃ§in 1 giriniz:\n");
 printf("For English enter 2:\n");
 scanf("%d",&lang);
 
@@ -90,28 +90,28 @@ scanf("%d",&lang);
 	{
 		while(exit==1){
 		printf("------------------------------------------\n");
-		printf("TAŞ KAĞIT MAKAS OYUNU\n\n");
-		printf("Takma adınızı giriniz:");
+		printf("TAÃ KAÃIT MAKAS OYUNU\n\n");
+		printf("Takma adÃ½nÃ½zÃ½ giriniz:");
 		scanf("%s",name);
 		
 		
-		printf("Kaç tur oynamak istersiniz?\nTur sayısı:");
+		printf("KaÃ§ tur oynamak istersiniz?\nTur sayÃ½sÃ½:");
 		scanf("%d",&n);
 		
 		
 		for(i=0;i<n;i++){
 			printf("---------------------\n");
-			printf("\n1=TAŞ\n2=KAĞIT\n3=MAKAS\n");
+			printf("\n1=TAÃ\n2=KAÃIT\n3=MAKAS\n");
 			scanf("%d",&a);
 		
 				if(a==1)
-					printf("\nTaş seçtiniz");
+					printf("\nTaÃ¾ seÃ§tiniz");
 				else if(a==2)
-					printf("\nKağıt seçtiniz");
+					printf("\nKaÃ°Ã½t seÃ§tiniz");
 				else if(a==3)
-					printf("\nMakas seçtiniz");
+					printf("\nMakas seÃ§tiniz");
 				else{
-					printf("\nYanlış değer girdiniz\n");
+					printf("\nYanlÃ½Ã¾ deÃ°er girdiniz\n");
 					continue;
 				}
 				
@@ -119,24 +119,24 @@ scanf("%d",&lang);
 			b=rand()%3+1;
 			
 				if(b==1)
-					printf("\nBilgisayar taş seçti\n");
+					printf("\nBilgisayar taÃ¾ seÃ§ti\n");
 				else if(b==2)
-					printf("\nBilgisayar kağıt seçti\n");
+					printf("\nBilgisayar kaÃ°Ã½t seÃ§ti\n");
 				else if(b==3)
-					printf("\nBilgisayar makas seçti\n");
+					printf("\nBilgisayar makas seÃ§ti\n");
 		
 			
 				if(a==b){
-					printf("\nEşitlik,bilgisayar ve %s 1 puan kazandılar\n\n",name);
+					printf("\nEÃ¾itlik,bilgisayar ve %s 1 puan kazandÃ½lar\n\n",name);
 					pc+=1;
 					user+=1;
 				}
 				else if((a==1 && b==3) || (a==2 && b==1) || (a==3 && b==2)){
-					printf("\n%s 1 puan kazandı\n\n",name);
+					printf("\n%s 1 puan kazandÃ½\n\n",name);
 					user+=1;
 				}
 				else{
-					printf("\nBilgisayar 1 puan kazandı\n\n");
+					printf("\nBilgisayar 1 puan kazandÃ½\n\n");
 					pc+=1;
 				}
 			}
@@ -146,18 +146,18 @@ scanf("%d",&lang);
 				if(user==pc)
 					printf("\n--Beraberlik--");
 				else if(user>pc)
-					printf("\n--%s kazandı--",name);
+					printf("\n--%s kazandÃ½--",name);
 				else
-					printf("\n--Bilgisayar kazandı--");
+					printf("\n--Bilgisayar kazandÃ½--");
 				
-		printf("\n\n0=Çık\n1=Başa Dön\n");
+		printf("\n\n0=Ã‡Ã½k\n1=BaÃ¾a DÃ¶n\n");
 		scanf("%d",&exit);
 		
 		}	
 	}
 	
 	else
-		printf("\nMoruq ya 1 gircen ya 2 bu kadar zor değil\n");
+		printf("\nMoruq ya 1 gircen ya 2 bu kadar zor deÃ°il\n");
 	
 getch();
 }
