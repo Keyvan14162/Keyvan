@@ -3,6 +3,8 @@
 #include <stdlib.h> 
 #include <locale.h>
 		
+//This is may way to solve this,there is more and easier ways to do
+
 main(){
 
 		setlocale(LC_ALL,"Turkish");
@@ -10,14 +12,14 @@ main(){
 		float a;
 		int i,j,c=1,lang,exit=1;
 		
-		printf("Türkçe için:1\nFor English:2\n");
+		printf("TÃ¼rkÃ§e iÃ§in:1\nFor English:2\n");
 		scanf("%d",&lang);
 		
 	if(lang == 1){
 		
 		while(exit == 1){
 						
-			printf("Deðeri giriniz:");
+			printf("DeÄŸeri giriniz:");
 			scanf("%f",&a);
 					
 			if(a < 0)
@@ -28,7 +30,7 @@ main(){
 			}
 					
 			else if(a == 1)
-				printf("Asal deðil");
+				printf("Asal deÄŸil");
 					
 			else{
 				for(i=1;i<a;i++){
@@ -41,11 +43,13 @@ main(){
 			}
 			
 			if(c==0)
-				printf("Asal deðil");
+				printf("Asal deÃ°il");
 			else if(c != 0)
 				printf("Asal");
-				
-			printf("\nÇýkýþ:0\nDevam:1\n");
+			
+			c=0;
+			
+			printf("\nÃ‡Ä±kÄ±ÅŸ:0\nDevam:1\n");
 			scanf("%d",&exit);
 		}
 	}
@@ -82,6 +86,8 @@ main(){
 				printf("Number is not prime");
 			else if(c != 0)
 				printf("Number is prime");
+			
+			c=1;
 			
 			printf("\nExit:0\nContinue:1\n");
 			scanf("%d",&exit);
