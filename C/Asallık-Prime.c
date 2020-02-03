@@ -3,7 +3,7 @@
 #include <stdlib.h> 
 #include <locale.h>
 		
-//This is may way to solve this,there is more and easier ways to do
+//This is my way to solve this,there is more and easier ways to do
 
 main(){
 
