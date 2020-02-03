@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
-#define max 50
 
 
 void insertionsort(int arr[],int size){
