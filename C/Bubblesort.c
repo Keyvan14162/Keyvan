@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
-#define max 50
 
 
 void bubblesort(int arr[],int size){
@@ -21,7 +20,7 @@ void bubblesort(int arr[],int size){
 
 int main(){
 	int array[max],size,i;
-	printf("Eleman sayisi:");
+	printf("Number of array elements:");
 	scanf("%d",&size);
 	
 	for(i=0;i<size;i++)
