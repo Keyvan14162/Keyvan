@@ -16,13 +16,13 @@ printf("a=%d b=%d",a,b);
 
 void lol(int c,int d){
 	
-	int gec;
+	int temp;
 	
-	gec=c;
+	temp=c;
 	
 	c=d;
 	
-	d=gec;
+	d=temp;
 	
 	printf("c=%d d=%d\n",c,d);
 	
