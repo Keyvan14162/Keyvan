@@ -23,7 +23,7 @@ void insertionsort(int arr[],int size){
 
 int main(){
 	int array[max],size,i;
-	printf("Eleman sayisi:");
+	printf("Number of elemets:");
 	scanf("%d",&size);
 	
 	for(i=0;i<size;i++)
