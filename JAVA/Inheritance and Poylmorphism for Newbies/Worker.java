@@ -13,7 +13,7 @@ public class Worker extends Human{
     }
 
     @Override
-    public void eat() {//Worker wil get 2 kilos
+    public void eat() {//Worker will get 2 kilos
         System.out.println("----------");
         System.out.println("Worker(+2) eated patato");
         setWeight(getWeight()+2);
@@ -59,14 +59,11 @@ public class Worker extends Human{
     @Override
     public void show() {
         //super.show(); //i want to change super method2 so i dont need this
-        System.out.println("-----WORKER-----");
+        System.out.println("-----WORKER-----");//bcs of this
         System.out.println("Age :"+getAge());
         System.out.println("Weight :" +getWeight());
         System.out.println("Lenght :" +getLenght());
         System.out.println("Color :"+getColor());
         System.out.println("Slary :"+getSalary());
     }
-    
-    
-    
 }
