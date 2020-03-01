@@ -12,10 +12,9 @@ public class Human {
     }
     
     //CONSTRUCTOR
-    public Human(int age,int lenght, int weight, String color) { // constructor
+    public Human(int age,int lenght, int weight, String color) { 
         
         //encapsulation
-        
         if(age > 0)
             this.age = age;
         
