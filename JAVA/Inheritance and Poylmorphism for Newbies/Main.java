@@ -7,9 +7,10 @@ public class Main {
     public static void main(String[] args) {
         
         //U can ask for this variables from user
-        //But didnt add it
+        //But i didnt add it
      
-        Human human = new Human(19,160,100,"niggerr");
+        Human human = new Human(19,160,100,"Blue");//if u make last string nigga or nigger 
+        // it will show u something special on top
         // 2 types of giving values 
         // we did use constructors and getters setters
         Worker worker = new Worker();
@@ -25,8 +26,8 @@ public class Main {
         human.eat(); //will get +1 weight
         worker.eat();//will get +2 weight
          
-        human.changeColor("White");
-        worker.changeColor("Orange");
+        human.changeColor("White");//human changed color
+        worker.changeColor("Orange");//worker changed color
         
         worker.raise(200);
         
