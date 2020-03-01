@@ -90,28 +90,28 @@ scanf("%d",&lang);
 	{
 		while(exit==1){
 		printf("------------------------------------------\n");
-		printf("TAÞ KAÐIT MAKAS OYUNU\n\n");
-		printf("Takma adýnýzý giriniz:");
+		printf("TAŞ KAĞIT MAKAS OYUNU\n\n");
+		printf("Takma adınızı giriniz:");
 		scanf("%s",name);
 		
 		
-		printf("Kaç tur oynamak istersiniz?\nTur sayýsý:");
+		printf("Kaç tur oynamak istersiniz?\nTur sayısı:");
 		scanf("%d",&n);
 		
 		
 		for(i=0;i<n;i++){
 			printf("---------------------\n");
-			printf("\n1=TAÞ\n2=KAÐIT\n3=MAKAS\n");
+			printf("\n1=TAS\n2=KAĞIT\n3=MAKAS\n");
 			scanf("%d",&a);
 		
 				if(a==1)
-					printf("\nTaþ seçtiniz");
+					printf("\nTaş seçtiniz");
 				else if(a==2)
-					printf("\nKaðýt seçtiniz");
+					printf("\nKağıt seçtiniz");
 				else if(a==3)
 					printf("\nMakas seçtiniz");
 				else{
-					printf("\nYanlýþ deðer girdiniz\n");
+					printf("\nYanlış değer girdiniz\n");
 					continue;
 				}
 				
@@ -119,24 +119,24 @@ scanf("%d",&lang);
 			b=rand()%3+1;
 			
 				if(b==1)
-					printf("\nBilgisayar taþ seçti\n");
+					printf("\nBilgisayar taş seçti\n");
 				else if(b==2)
-					printf("\nBilgisayar kaðýt seçti\n");
+					printf("\nBilgisayar kağıt seçti\n");
 				else if(b==3)
 					printf("\nBilgisayar makas seçti\n");
 		
 			
 				if(a==b){
-					printf("\nEþitlik,bilgisayar ve %s 1 puan kazandýlar\n\n",name);
+					printf("\nEşitlik,bilgisayar ve %s 1 puan kazandılar\n\n",name);
 					pc+=1;
 					user+=1;
 				}
 				else if((a==1 && b==3) || (a==2 && b==1) || (a==3 && b==2)){
-					printf("\n%s 1 puan kazandý\n\n",name);
+					printf("\n%s 1 puan kazandı\n\n",name);
 					user+=1;
 				}
 				else{
-					printf("\nBilgisayar 1 puan kazandý\n\n");
+					printf("\nBilgisayar 1 puan kazandı\n\n");
 					pc+=1;
 				}
 			}
@@ -146,18 +146,18 @@ scanf("%d",&lang);
 				if(user==pc)
 					printf("\n--Beraberlik--");
 				else if(user>pc)
-					printf("\n--%s kazandý--",name);
+					printf("\n--%s kazandı--",name);
 				else
-					printf("\n--Bilgisayar kazandý--");
+					printf("\n--Bilgisayar kazandı--");
 				
-		printf("\n\n0=Çýk\n1=Baþa Dön\n");
+		printf("\n\n0=Çık\n1=Başa Dön\n");
 		scanf("%d",&exit);
 		
 		}	
 	}
 	
 	else
-		printf("\nMoruq ya 1 gircen ya 2 bu kadar zor deðil\n");
+		printf("\nMoruq ya 1 gircen ya 2 bu kadar zor değil\n");
 	
 getch();
 }
