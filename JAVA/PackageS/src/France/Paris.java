@@ -10,7 +10,7 @@ public class Paris extends Kutahya{
     public void stdnt(){
   
         Ankara main = new Ankara();
-        //with this we can reach main class , main is in Deneme Package
+        //with this we can reach Ankara class , Ankara is in Turkey Package
        
         Scanner scanner = new Scanner(System. in);
         
@@ -31,10 +31,6 @@ public class Paris extends Kutahya{
         else if(temp.equalsIgnoreCase("rewrite"));
         else
             System.out.println("Wrong type.Let's do it agagin");
-        }     
-        
-        
-        
+        }        
     }
-
 }
