@@ -6,7 +6,7 @@ import France.Paris;
 public class Ankara {
     public static void main(String[] args){
         
-        System.out.println("-----Packages are talking to each other-----");
+        System.out.println("-----Package Communation-----");
        
         
         Paris iso = new Paris();
