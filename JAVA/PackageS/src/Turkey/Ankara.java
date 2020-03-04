@@ -19,8 +19,8 @@ public class Ankara {
         System.out.println("But i have created in different package and class.I have created in 'Paris' class.Paris class");
         System.out.print("is in 'France' package.If you are not beliving me you can check it in my codes.\n");
         System.out.println("I have created in Paris by using 'Kutahya' class(In Turkey package) for my informations.");
-        System.out.println("You can create someone like me and you by using 'Paris' class.");
-        System.out.println("Ty ^^");
+        System.out.println("You can create someone like me or you by using 'Paris' class.");
+        System.out.println("\nI just wanna try something like using classes and packages.");
         
     }//main
 }
