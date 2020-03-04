@@ -1,6 +1,6 @@
 package Turkey;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Kutahya{
     public int age;
@@ -12,12 +12,13 @@ public class Kutahya{
     public int getAge() {
         return age;
     }
-
-//    Scanner scanner = new Scanner(System.in);
+    
+//I use public because i wanna reach this class from out of package classes
+    Scanner scanner = new Scanner(System.in);
     
     public Kutahya(){
     }
-    //Useless Constructors
+    
     public Kutahya(int age, int weight, String name, String surname, String skin_color) {
         this.age = age;
         this.weight = weight;
