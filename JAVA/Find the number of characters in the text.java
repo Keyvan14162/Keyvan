@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
      
         String text,ch;
-        int temp,counter=0,same = 0;
+        int temp,counter=0;
         
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the text:");
