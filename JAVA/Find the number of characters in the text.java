@@ -37,7 +37,7 @@ public class Main {
                 }
                      
                 System.out.println("\nThere is "+counter+" "+ch+" characters");
-                
+                counter = 0;
                 
                 System.out.println("\n1:Menu\n2:Exit");
                 temp = scan.nextInt();
@@ -62,6 +62,7 @@ public class Main {
                 }
                      
                 System.out.println("\nThere is "+counter+" "+ch.toLowerCase()+" and "+ch.toUpperCase()+" characters");
+                counter = 0;
                 
                 System.out.println("\n1:Menu\n2:Exit");
                 temp = scan.nextInt();
