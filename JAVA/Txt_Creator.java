@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.io.*;
 
 //In this program you can choose your txt file name,you can can write whatever you want in that files and
-//and you can choose how many times to write.
+//and you can choose how many times to write.Also you can read files.
 
 
 public class Main {
