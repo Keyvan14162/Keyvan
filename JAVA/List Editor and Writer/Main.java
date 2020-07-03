@@ -6,6 +6,8 @@ import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+//the best spaghetti in the world
+
 public class Main {
     
     public static void menu() {
