@@ -40,7 +40,7 @@ public class Improved {
                 else
                     error();
             }
-            System.out.println("\nThis is program is raceisn't");
+            System.out.println("\nThis program is raceisn't");
             System.out.println("1:Exit\n2:Another one");
 
             exit = scanner.nextInt();
